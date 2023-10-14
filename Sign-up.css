@@ -1,0 +1,443 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+
+ background-image: url(../Assets/images/background\ signup2.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ z-index: 3;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 150px;  
+
+}
+.circle1
+{
+    width: 200px;
+    height: 200px;
+   
+    position: absolute;
+    left: 0px;
+    top: 760px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 5px 5px 10px black;
+   
+   /* position: absolute;
+    left: 10px;
+    top: 650px;
+    border-radius: 50%;*/
+}
+.circle2
+{
+    width: 200px;
+    height: 200px;
+
+    position: absolute;
+    left: 50px;
+    top: 800px;
+    border-radius: 50%;
+    border: 2px solid white;
+   
+}
+   
+
+
+#backgroundSignup{
+    background-color: black;
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+    position: absolute;
+    left: 410px;
+    overflow: hidden;
+}
+.spicy{
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+}
+#box1:hover .spicy{
+    transform: scale(1.5);
+}
+#box1{
+    width: 700px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.515);
+   z-index: 4;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px red;
+    display: flex;
+    
+    justify-content: space-evenly;
+  
+}
+#box2{
+    width: 350px;
+    height: 450px;
+  display: flex;
+ 
+    margin: 10px;
+ 
+    
+}
+#bubbles{
+    width: 100%;
+    height: 800px;
+    background-color: blue;
+   background: transparent;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.bubble{
+    animation: move 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes move{
+   0%,100%{
+ transform: rotate(30deg);
+   }
+   25%{
+    transform: rotate(60deg);
+
+   }
+   50%{
+    transform: rotate(-60deg);
+    transform: scale(1.5);
+
+   }
+}
+#bubble1{
+    animation-delay: 1s;
+}
+#bubble2{
+    animation-delay: 2s;
+}
+#bubble3{
+    animation-delay: 3s;
+}
+#bubble3{
+    animation-delay: 4s;
+}
+#bubble4{
+    animation-delay: 5s;
+}
+#bubble5{
+    animation-delay: 6s;
+}
+#bubble7{
+    animation-delay: 7s;
+}
+#bubble8{
+    animation-delay: 8s;
+}
+#bubble9{
+    animation-delay: 9s;
+}
+#bubble10{
+    animation-delay: 10s;
+}
+#bubble11{
+    animation-delay: 11s;
+}
+#bubble1{
+    position: absolute;
+    left: 1400px;
+    top: 400px;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+}
+#chicken{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#bubble2{
+    position: absolute;
+    top: 170px;
+    left: 1400px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+  
+}
+#burger{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#bubble3{
+    position: absolute;
+    left: 1200px;
+    top: 100px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+  
+}
+#gobi{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#bubble4{
+    position: absolute;
+    left: 1200px;
+    top: 500px;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+ 
+  
+}
+#taste{
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+}
+#bubble5{
+    position: absolute;
+    left: 1000px;
+    top: 500px;
+    width: 50px;
+    height: 50px; 
+    overflow: hidden;
+}
+#spicy{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#bubble6{
+    position: absolute;
+    left: 1400px;
+    top: 550px;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+}
+#puri{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+#bubble7{
+    position: absolute;
+    left: 1200px;
+    top: 200px;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+   
+  
+}
+#snacks{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+#bubble8{
+    position: absolute;
+    left: 1200px;
+    top: 0px;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+  
+}
+#vegrice{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+#bubble9{
+    position: absolute;
+    left: 1400px;
+    top: 80px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+  
+}
+#manchuria{
+    width:50px ;
+    height: 50px;
+    border-radius: 50%;
+}
+#bubble10{
+    position: absolute;
+    left: 1200px;
+    top: 350px;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+  
+}
+#piece{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+#bubble11{
+    position: absolute;
+    left: 1380px;
+    top: 270px;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+}
+#maggie{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.bubble{
+   
+    background-color: white;
+    border-radius: 100%;
+    border: 3px solid black;
+    box-shadow: 3px 3px 10px skyblue;
+}
+.bubble:hover{
+    transform: scale(2);
+}
+.formpic{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+  
+  
+
+}
+
+#signpic{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+   
+  
+}
+#box2:hover{
+    box-shadow: 3px 3px 10px skyblue;
+
+}
+h1{
+    color: black;
+    font-size: 40px;
+    letter-spacing: 3px;
+   text-align: center;
+   background-color: white;
+   border-radius: 10px;
+}
+#chilli{
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    top: 150px;
+    left: 690px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+}
+input{
+    
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    letter-spacing: 3px;
+    transition: 1s;
+}
+input:hover{
+    transform: scale(1.1);
+
+}
+textarea{
+    text-align: center;
+    background: transparent;
+    outline: none;
+    border: none;  
+}
+h2{
+    text-align: center;
+    font-size: 20px;
+    color: skyblue;
+    text-shadow: 1px 1px 5px black;
+}
+select{
+  width: 100%;
+  height: 30px;
+  color: white;
+  background-color: brown;
+  font-size: 18px;
+}
+option{
+    text-align: center;
+    font-size: 15px;
+}
+textarea{
+   
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    width: 100%;
+    margin-top:20px ;
+}
+button{
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    left: 500px;
+    top: 600px;
+   background-image: linear-gradient(75deg,red,skyblue,red);
+   border-radius: 10px;
+   background-position: 800px;
+   color: white;
+   font-size: 18px;
+   letter-spacing: 4px;
+  
+}
+button:hover{
+    animation: buttonAnimation 0.5s;
+}
+@keyframes buttonAnimation{
+    0%,100%{
+        transform: scale(1.5)rotate(10deg);
+        background-position: 800px;
+        font-size: small;
+    }
+    25%{
+        transform: scale(1.5)rotate(-10deg);
+        background-position: 0px;
+        font-size: larger;
+    }
+}
